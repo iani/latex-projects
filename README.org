@@ -1,0 +1,14 @@
+* latex-projects
+Collection of multi-file latex projects for theses, books etc. Use with emacs latex-compile-project from emacs-prelude-personal
+
+Each folder in this repository contains a collection of files that can be compiled with latex.  In each folder, there is a file main.tex which contains the setup for using the rest of the files in that folder to create a pdf document.
+
+* Installation and use
+
+- Clone this project under ~/latex-exports/
+
+The projects are meant to be used in one of the 2 following ways: 
+
+1. Use a standard latex compile command to convert a project into pdf (requires command-line and latex knowledge).
+2. Use latex-compile-project command in emacs, which is defined in postload folder of emacs-prelude-personal repository of this user (user iani) on github.
+
